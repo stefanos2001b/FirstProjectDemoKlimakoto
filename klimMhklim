@@ -13,8 +13,12 @@ elif units <= 10:
 elif units <= 20:
     unit_charge = 0.0 * 5 + 5 * 0.5 + (units - 10) * 0.7
     unit_charge1 = 0.7 * units
+#ALLAGH
+elif units <= 50:
+    unit_charge = 0.0 * 5 + 5 * 0.5 + 10 * 0.7+(unit-20)*1
+    unit_charge1 = 0.7 * units
 else:
-    unit_charge = 0.0 * 5 + 5 * 0.5 + 10 * 0.7 + (units - 20) * 1
+    unit_charge = 0.0 * 5 + 5 * 0.5 + 10 * 0.7 + (unit-30) * 1.2
     unit_charge1 = 1 * units
 
 # Κλιμακωτή χρέωση
